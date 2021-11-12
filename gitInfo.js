@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = 'Git is, at its most basic, a file tracking/version control program. It makes collaborative programming easier because of its non-linear nature.';
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = 'GitHub is one of the online resources that allows for an online element to be integrated into the use of Git. It creates ease in developing with many members whos most convenient connection is through internet.';
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+let init = {
+    description: 'The init command lets the git program know to begin tracking the folder refrenced through the location that has been navigated to prior through the terminal.',
+    code: 'git init {directory}'
+};
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description: 'The clone command copies the repository at the url and pastes it at the location that has been navigated to.',
+    code: 'git clone {repository} {directory}'
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+let status = {
+    description: 'The status command shows what files are staged or unstaged. It lets the user know what branch they are on and if the branch is up to date.',
+    code: 'git status'
+};
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description: 'The add command stages files in preparation for being commited.',
+    code: 'git add {file}'
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,10 @@
 
 //CODE HERE
 
+let commit = {
+    description: 'The commit command takes a snapshot of the changes added through the add command.',
+    code: 'git commit'
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +103,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: 'The push command transfers the committed changes to a remote repository. It copies what has been changed and updates the remote repository thusly.',
+    code: 'git push {remote} {branch}'
+};
